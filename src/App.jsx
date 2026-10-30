@@ -5,9 +5,11 @@ import AdDetail from './pages/AdDetail.jsx'
 import DailyUpdate from './pages/DailyUpdate.jsx'
 import Funds from './pages/Funds.jsx'
 import AdAccounts from './pages/AdAccounts.jsx'
+import MetaAds from './pages/MetaAds.jsx'
 
 const NAV = [
   { to: '/', label: 'Dashboard', end: true },
+  { to: '/meta-ads', label: 'Meta Ads (Live)' },
   { to: '/ads', label: 'Ads' },
   { to: '/daily-update', label: 'Daily Update' },
   { to: '/funds', label: 'Funds' },
@@ -36,6 +38,7 @@ export default function App() {
       <main className="content">
         <Routes>
           <Route path="/" element={<Dashboard />} />
+          <Route path="/meta-ads" element={<MetaAds />} />
           <Route path="/ads" element={<Ads />} />
           <Route path="/ads/:id" element={<AdDetail />} />
           <Route path="/daily-update" element={<DailyUpdate />} />

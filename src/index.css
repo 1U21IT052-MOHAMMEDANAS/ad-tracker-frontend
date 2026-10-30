@@ -96,6 +96,14 @@ tbody tr:last-child td { border-bottom: none; }
 .badge-paused { background: #fff4dc; color: #a46a00; }
 .badge-completed { background: #e7efff; color: var(--primary-dark); }
 .badge-inactive { background: #fde8e7; color: var(--neg); }
+.badge-other { background: #fff0e0; color: #a4520b; }
+
+/* Meta Ads (live) */
+.live-dot { width: 9px; height: 9px; border-radius: 50%; background: var(--pos); box-shadow: 0 0 0 4px #e3f6ec; }
+.account-card .mono { color: var(--muted); text-transform: none; margin-left: 4px; }
+.account-card .muted { margin-top: 4px; }
+tfoot td { border-top: 2px solid var(--border); border-bottom: none; background: #f8fafd; }
+.is-loading { opacity: .55; transition: opacity .15s; }
 
 /* Buttons & inputs */
 .btn {
